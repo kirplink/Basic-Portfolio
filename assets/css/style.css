@@ -33,7 +33,7 @@ header {
 
 .topnav {
     margin: 0 auto;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     overflow: hidden;
     width: 960px;
 }
@@ -81,7 +81,7 @@ hr {
 }
 
 #headshot {
-    width: 14%;
+    width: 16.2%;
     float: left;
     margin: 10px;
 }
@@ -164,6 +164,10 @@ button:focus {
 
 .img-container:hover {
     transform: scale(1.02);
+}
+
+.img-container:active {
+    transform: scale(0.98);
 }
 
 .end-float {
